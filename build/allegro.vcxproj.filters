@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\allegro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\blit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\bmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\clip3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\clip3df.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\colblend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\datafile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dataregi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\digmid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dither.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dispsw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\drvlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fli.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\flood.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontbios.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontdat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontgrx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fonttxt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fsel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\glyph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\graphics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gsprite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\guiproc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\inline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\keyboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\lbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\libc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\lzss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\math3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\midi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\mixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\modesel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\mouse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\pcx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\poly3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\polygon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\quantize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\quat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readsmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rotate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rsfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\scene3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\sound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\spline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\tga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\ccpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\ccsprite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cmisc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cstretch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\misc\ccolconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\misc\colconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\gdi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddaccel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddbmpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddraw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddfull.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddlock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddmode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddovl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddwin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsndmix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsndwo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdxver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdispsw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wgdi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wgfxdrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\winput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoydrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoydx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoyhelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoyw32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wkeybd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wmidi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wmouse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsnddrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsystem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wtimer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wwnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\include\allegro\platform\alplatf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\3dmaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\alcompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\alinline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\compiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\datafile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\digi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fmaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\gfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\lzss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\palette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\rle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\3dmaths.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\asm.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\color.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\draw.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\fix.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\fmaths.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\gfx.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\matrix.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\rle.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\system.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\aintern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\aintvga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\alconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintbeos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintdos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintlnx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintosx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintpsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintqnx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintunix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386gcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386vc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386wat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albcc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albeos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldjgpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almaccfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almngw32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almsvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alosx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alosxcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alpsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alpspcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alqnx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alqnxcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alucfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alunix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alwatcom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\astdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\macdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\winalleg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\asmlock.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\dllver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6FF3A1-9229-31E6-860C-0C990275E463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF9EEC2D-D100-3EA6-B878-F24E8BDE833E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

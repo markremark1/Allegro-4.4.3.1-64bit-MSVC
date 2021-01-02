@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{518154D8-6C1A-38EE-AC08-FD487FD0062C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marek\allegro-4.4.3.1\allegro\include;C:\Users\Marek\allegro-4.4.3.1\allegro\build\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marek/allegro-4.4.3.1/allegro -BC:/Users/Marek/allegro-4.4.3.1/allegro/build --check-stamp-file C:/Users/Marek/allegro-4.4.3.1/allegro/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\Common.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FileList.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDDraw.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDInput.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDSound.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDXGuid.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alplatf.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\ZERO_CHECK.vcxproj">
+      <Project>{91A2BAAC-CE4C-3AE7-8903-4B569A0EBADF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\afinfo.vcxproj">
+      <Project>{C0AE3CB0-65EB-34B1-AD4F-D27DD61A36CD}</Project>
+      <Name>afinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\akaitest.vcxproj">
+      <Project>{92CA2D32-2F48-3F3C-86B5-E615B32E0931}</Project>
+      <Name>akaitest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\aldat.vcxproj">
+      <Project>{D538CCE2-9F91-327D-9428-C546068CEBD0}</Project>
+      <Name>aldat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\allegro.vcxproj">
+      <Project>{593DB37A-8EFF-3566-A16F-FBD54D3FEDCD}</Project>
+      <Name>allegro</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\allegrogl.vcxproj">
+      <Project>{FC301317-E70B-38E4-8DC3-89573019C038}</Project>
+      <Name>allegrogl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\colormap.vcxproj">
+      <Project>{13C8D7CB-5BA1-3417-9FD6-145B5AD71E93}</Project>
+      <Name>colormap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\copy_allegrogl_example_data.vcxproj">
+      <Project>{220079E9-9BCB-3FA1-8A09-76DD829B5611}</Project>
+      <Name>copy_allegrogl_example_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\copy_example_data.vcxproj">
+      <Project>{1B1A53FC-F691-3850-84D5-7B59C777CF84}</Project>
+      <Name>copy_example_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\copy_jpgalleg_example_data.vcxproj">
+      <Project>{3136960C-E135-34BF-A095-6731C317C619}</Project>
+      <Name>copy_jpgalleg_example_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\setup\copy_setup_data.vcxproj">
+      <Project>{CD375D62-BB0F-364E-A5AD-455FC42F155E}</Project>
+      <Name>copy_setup_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\shooter\copy_shooter_data.vcxproj">
+      <Project>{D131F8F6-5473-3A2C-BF72-96DFC05235B6}</Project>
+      <Name>copy_shooter_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\skater\copy_skater_data.vcxproj">
+      <Project>{B56C4503-9C75-38B1-9A9C-69CA7C742F3F}</Project>
+      <Name>copy_skater_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\dat.vcxproj">
+      <Project>{FB77BBE9-91B2-3251-B0AA-A922B328C873}</Project>
+      <Name>dat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\dat2c.vcxproj">
+      <Project>{A9C0407E-E376-359C-9913-A00AFC9201F7}</Project>
+      <Name>dat2c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\dat2s.vcxproj">
+      <Project>{AF8C17CF-74D7-31ED-8814-874950A65450}</Project>
+      <Name>dat2s</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\dialog_agl.vcxproj">
+      <Project>{2894386C-5047-3B9B-B86D-EE716B679F63}</Project>
+      <Name>dialog_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\dibgrab.vcxproj">
+      <Project>{3782399F-370C-3404-AE72-AF8B49B0E617}</Project>
+      <Name>dibgrab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\dibhello.vcxproj">
+      <Project>{14507788-FE40-3785-BDA9-107DB9B2EDB4}</Project>
+      <Name>dibhello</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\dibsound.vcxproj">
+      <Project>{C209220F-F5A4-3404-96B0-B00F9684B920}</Project>
+      <Name>dibsound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\digitest.vcxproj">
+      <Project>{CCF431CA-95D5-3808-8968-480E6C730FF0}</Project>
+      <Name>digitest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\docs\docs.vcxproj">
+      <Project>{13D76715-AE2B-3B79-9E6E-39980ACDE255}</Project>
+      <Name>docs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\dumbtest_agl.vcxproj">
+      <Project>{39E74D05-2364-3C9B-A45E-56CBACB2AE11}</Project>
+      <Name>dumbtest_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\dxwindow.vcxproj">
+      <Project>{ADC733D8-416B-3BF1-9060-E52DC970D853}</Project>
+      <Name>dxwindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\ex12bit.vcxproj">
+      <Project>{6E271186-7579-34B4-A1C6-9554E462657B}</Project>
+      <Name>ex12bit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\ex1_jpg.vcxproj">
+      <Project>{FC20BC07-B00E-33D7-B05E-5FC9D00B3E75}</Project>
+      <Name>ex1_jpg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\ex2_jpg.vcxproj">
+      <Project>{59BD8593-39D5-3EB2-8823-9FA9283557AA}</Project>
+      <Name>ex2_jpg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\ex3_jpg.vcxproj">
+      <Project>{B71494D5-6E28-3E50-8644-BEC8BBD74ECE}</Project>
+      <Name>ex3_jpg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\ex3buf.vcxproj">
+      <Project>{B78A24AD-121E-3494-AB33-83526B8CE88F}</Project>
+      <Name>ex3buf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\ex3d.vcxproj">
+      <Project>{BFCBA915-2670-386B-8346-A67C10C386A4}</Project>
+      <Name>ex3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\ex4_jpg.vcxproj">
+      <Project>{89250254-5852-35FA-8674-A2641A34BA63}</Project>
+      <Name>ex4_jpg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\ex5_jpg.vcxproj">
+      <Project>{76E804B6-32BD-34A1-9D6B-A4C0DCF7C5D0}</Project>
+      <Name>ex5_jpg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exaccel.vcxproj">
+      <Project>{47B333AE-0227-3BDF-B7A8-50C2A5299C53}</Project>
+      <Name>exaccel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exalleg_agl.vcxproj">
+      <Project>{714BC388-16BA-3A93-B5A9-65D8D00AC742}</Project>
+      <Name>exalleg_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exalpfnt_agl.vcxproj">
+      <Project>{591BDBBE-17FF-33DB-89BA-1EE95FDEB414}</Project>
+      <Name>exalpfnt_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exalpha.vcxproj">
+      <Project>{01E16019-57E7-3719-894A-1288F40320A2}</Project>
+      <Name>exalpha</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exbitmap.vcxproj">
+      <Project>{6B1F9B49-2A89-33F5-94D0-C003646C50BE}</Project>
+      <Name>exbitmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exblend.vcxproj">
+      <Project>{8239A8F6-A0AE-3B32-8C00-638138996257}</Project>
+      <Name>exblend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exblend_agl.vcxproj">
+      <Project>{4F262962-C54D-3BC5-AAD2-D8B524815F8A}</Project>
+      <Name>exblend_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\excamera.vcxproj">
+      <Project>{7B17933C-9B23-39C3-925A-19A88D1D55AD}</Project>
+      <Name>excamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\excamera_agl.vcxproj">
+      <Project>{89F9CDF7-957C-3D1F-BE67-FF94E17266F3}</Project>
+      <Name>excamera_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\excolmap.vcxproj">
+      <Project>{6804D9F8-906C-3BD8-853A-3BFA03661BE4}</Project>
+      <Name>excolmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exconfig.vcxproj">
+      <Project>{BB1CE6CA-A3BF-3F67-A3A6-42BDD5859B61}</Project>
+      <Name>exconfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\excustom.vcxproj">
+      <Project>{B0422DD3-1707-38D6-8875-757AE6D1650F}</Project>
+      <Name>excustom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exdata.vcxproj">
+      <Project>{643888FC-46A1-3861-9A7A-2D0132CCAE2F}</Project>
+      <Name>exdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exdbuf.vcxproj">
+      <Project>{951875F1-BD50-3F8D-AC44-CCB0D309B090}</Project>
+      <Name>exdbuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\exedat.vcxproj">
+      <Project>{20CF2E34-B90F-3672-9E56-574B631C28AD}</Project>
+      <Name>exedat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exexedat.vcxproj">
+      <Project>{955FF994-A44B-3145-863D-87D47A2C6811}</Project>
+      <Name>exexedat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exext_agl.vcxproj">
+      <Project>{D11D0500-61D6-3587-A01B-547D5B00F6CB}</Project>
+      <Name>exext_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exfixed.vcxproj">
+      <Project>{A9F82FF2-C9EE-322E-A3B3-662769FA45C1}</Project>
+      <Name>exfixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exflame.vcxproj">
+      <Project>{A9D59307-3C5A-38D5-B9E7-574A8F562C5D}</Project>
+      <Name>exflame</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exflip.vcxproj">
+      <Project>{8FEE644C-6006-3FCF-AA26-74AFBC83547F}</Project>
+      <Name>exflip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exfont.vcxproj">
+      <Project>{39058535-515E-3521-B96E-D57AA004B46F}</Project>
+      <Name>exfont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exgui.vcxproj">
+      <Project>{D125D466-2F3F-3664-B00E-CCB0BE194090}</Project>
+      <Name>exgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exgui_agl.vcxproj">
+      <Project>{4C191D87-6950-335B-AA04-5581E327EED0}</Project>
+      <Name>exgui_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exhello.vcxproj">
+      <Project>{4B9A8FAD-C1AD-38BF-B311-0428902745D1}</Project>
+      <Name>exhello</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exjoy.vcxproj">
+      <Project>{E016D97F-9C6A-3CCD-82F1-70FD7CD32511}</Project>
+      <Name>exjoy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exkeys.vcxproj">
+      <Project>{3C91FE4E-FA37-3D8F-81FC-1527D8CF3D7A}</Project>
+      <Name>exkeys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exlights.vcxproj">
+      <Project>{CCF949CC-3D38-3F3A-8A8B-D74F2387F09C}</Project>
+      <Name>exlights</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exmasked_agl.vcxproj">
+      <Project>{2F50F550-BA28-3F7F-B71A-0AB635231892}</Project>
+      <Name>exmasked_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exmem.vcxproj">
+      <Project>{0A884BDD-8234-3992-9884-E902F5DCCA21}</Project>
+      <Name>exmem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exmidi.vcxproj">
+      <Project>{3898FC27-76A2-3B29-8C11-584E7DC60AE2}</Project>
+      <Name>exmidi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\exmipmaps_agl.vcxproj">
+      <Project>{055E814E-9397-3D36-808B-FC595A42BB70}</Project>
+      <Name>exmipmaps_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exmouse.vcxproj">
+      <Project>{9B158814-0B61-36A5-BC56-9080183D5BE1}</Project>
+      <Name>exmouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\expackf.vcxproj">
+      <Project>{9BB5D6C4-3D25-3077-AD00-CB8D2349FCDA}</Project>
+      <Name>expackf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\expal.vcxproj">
+      <Project>{29AAB15C-5BC3-32D6-8423-1CCAB548518E}</Project>
+      <Name>expal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\expat.vcxproj">
+      <Project>{48C3C53A-0CA0-342E-97AD-30FFB942E7DD}</Project>
+      <Name>expat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exquat.vcxproj">
+      <Project>{3F9C3D05-D47A-3226-8D6C-F9227429D903}</Project>
+      <Name>exquat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exrgbhsv.vcxproj">
+      <Project>{4B02BDDD-6C68-3A27-B6F3-1CADF3807C60}</Project>
+      <Name>exrgbhsv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exrotscl.vcxproj">
+      <Project>{E12601AB-0B39-3520-B365-D374938F655D}</Project>
+      <Name>exrotscl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exsample.vcxproj">
+      <Project>{4F96133F-16E3-3536-9A81-0CB3F86697CE}</Project>
+      <Name>exsample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exscale.vcxproj">
+      <Project>{94245CDA-F034-3BF3-8164-2A24064632BF}</Project>
+      <Name>exscale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exscn3d.vcxproj">
+      <Project>{D2489AF0-F928-3777-931D-B741CEDD4701}</Project>
+      <Name>exscn3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exscroll.vcxproj">
+      <Project>{0CCFEADE-7982-30DE-BB17-376A385B302B}</Project>
+      <Name>exscroll</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exshade.vcxproj">
+      <Project>{7F65C105-CAF4-3747-B4EC-E3FA60D469F1}</Project>
+      <Name>exshade</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exspline.vcxproj">
+      <Project>{62305627-E2BD-3425-BBB3-442E71EDCA24}</Project>
+      <Name>exspline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exsprite.vcxproj">
+      <Project>{44CB1B07-A774-33E1-BFFB-450532451890}</Project>
+      <Name>exsprite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exstars.vcxproj">
+      <Project>{F97B34A4-ED8E-3FFB-B6F5-7AE8D3CA3EC5}</Project>
+      <Name>exstars</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exstream.vcxproj">
+      <Project>{F05992E1-3F75-3C2E-AEE9-16E821DDD719}</Project>
+      <Name>exstream</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exswitch.vcxproj">
+      <Project>{869A35D2-67EC-3FB8-B492-08E33CBF65B0}</Project>
+      <Name>exswitch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exsyscur.vcxproj">
+      <Project>{C2EF4221-141D-3876-B597-B69E656A9D40}</Project>
+      <Name>exsyscur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\extext_agl.vcxproj">
+      <Project>{B4FC2BCF-5F73-33C6-ABC5-717C1F6F4DFD}</Project>
+      <Name>extext_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\extextur_agl.vcxproj">
+      <Project>{28C373C1-5E1B-3F99-B64F-5FCA706C0D87}</Project>
+      <Name>extextur_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\extimer.vcxproj">
+      <Project>{54BF5C79-19A5-3705-B37A-965EC781E677}</Project>
+      <Name>extimer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\extrans.vcxproj">
+      <Project>{F7FECE86-FE4B-3C4C-8524-BE806A196D0F}</Project>
+      <Name>extrans</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\extrans2.vcxproj">
+      <Project>{B7588421-2B4C-3216-A6BE-D7E689B3DCA3}</Project>
+      <Name>extrans2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\extruec.vcxproj">
+      <Project>{1A68545A-5A07-30E9-8D95-8525A8014DA8}</Project>
+      <Name>extruec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exunicod.vcxproj">
+      <Project>{4348B3B0-F302-336F-8F13-1B9BF617F593}</Project>
+      <Name>exunicod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exupdate.vcxproj">
+      <Project>{169B0AE8-F8AD-307C-A3F9-B66201B73215}</Project>
+      <Name>exupdate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exxfade.vcxproj">
+      <Project>{388170C4-003F-370E-ACFC-91552ADE34F2}</Project>
+      <Name>exxfade</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\exzbuf.vcxproj">
+      <Project>{849DD244-8E29-36D1-90D8-63FC1127D76D}</Project>
+      <Name>exzbuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\filetest.vcxproj">
+      <Project>{C2E624B4-A0BF-3D70-8748-2846F6C0A348}</Project>
+      <Name>filetest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\fonttest_agl.vcxproj">
+      <Project>{540634E1-12AB-370B-BE33-40E8D02A81E1}</Project>
+      <Name>fonttest_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\gfxinfo.vcxproj">
+      <Project>{6D2C18EB-D2B0-3010-88CB-E8241DF8260F}</Project>
+      <Name>gfxinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\grabber.vcxproj">
+      <Project>{65F29618-1A65-32C4-9B87-7C79F0D6B2C9}</Project>
+      <Name>grabber</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\jpgalleg.vcxproj">
+      <Project>{0AAAE7D7-2343-3E2E-A955-A2BD70C00838}</Project>
+      <Name>jpgalleg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\setup\keyconf.vcxproj">
+      <Project>{7C6A6743-6DE0-3CB0-B1E4-38171832ED42}</Project>
+      <Name>keyconf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\docs\makedoc.vcxproj">
+      <Project>{48B77598-BF4A-3226-8CA3-52E919199517}</Project>
+      <Name>makedoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\mathtest.vcxproj">
+      <Project>{3A06A570-DB52-3B70-90C1-2531957E2D35}</Project>
+      <Name>mathtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\miditest.vcxproj">
+      <Project>{BA5385C4-79C5-3A23-A728-64E71B733936}</Project>
+      <Name>miditest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\pack.vcxproj">
+      <Project>{75B136FD-6DBA-3693-905C-E3CEDBB08156}</Project>
+      <Name>pack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\pat2dat.vcxproj">
+      <Project>{23B9A56B-59F9-3E18-96E6-1309A14738DE}</Project>
+      <Name>pat2dat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\play.vcxproj">
+      <Project>{9B027616-542A-31B7-A9BF-5D56621D6D8D}</Project>
+      <Name>play</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\playfli.vcxproj">
+      <Project>{0B9A7D6A-8362-3DB7-9ADF-6D032BB5B8CB}</Project>
+      <Name>playfli</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\rgbmap.vcxproj">
+      <Project>{6CC083CB-2D4C-3187-AB74-639EDD8A8061}</Project>
+      <Name>rgbmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\scrsave.vcxproj">
+      <Project>{39673821-B862-3DB7-B3C1-E1C75F74B2CB}</Project>
+      <Name>scrsave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\setup\setup.vcxproj">
+      <Project>{4129B600-210D-3FE1-935C-0FF259042C41}</Project>
+      <Name>setup</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\shooter\shooter.vcxproj">
+      <Project>{9DDB2ECC-5059-31AF-9FC0-A908D7746EE5}</Project>
+      <Name>shooter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\skater\skater.vcxproj">
+      <Project>{C4AF4FEF-BDFF-3AA3-A536-EBBB84E072F7}</Project>
+      <Name>skater</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\skater\skater_agl.vcxproj">
+      <Project>{8C564312-2CD3-3333-A18B-4AB56DC93AC9}</Project>
+      <Name>skater_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\test.vcxproj">
+      <Project>{B1E57295-1F21-3C94-8AF5-2BF51AA6DC84}</Project>
+      <Name>test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\test_agl.vcxproj">
+      <Project>{7411CD90-5CD4-3938-9282-F452832268C0}</Project>
+      <Name>test_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\tex_agl.vcxproj">
+      <Project>{A8C2C6F9-53DC-35CF-8DF5-1F3DA8AC39CB}</Project>
+      <Name>tex_agl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\textconv.vcxproj">
+      <Project>{5ADA6A49-2E43-331B-9D15-E69B5A70C7D5}</Project>
+      <Name>textconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\vesainfo.vcxproj">
+      <Project>{72A7A299-0636-35F2-8E0A-1F55FB899E1F}</Project>
+      <Name>vesainfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\wfixicon.vcxproj">
+      <Project>{82031D3A-27BB-3A61-BCA5-FAFA065DB5FC}</Project>
+      <Name>wfixicon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

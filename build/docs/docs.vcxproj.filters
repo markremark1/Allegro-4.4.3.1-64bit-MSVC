@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\abi.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\abi.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\addons.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\addons.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\ahack.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\ahack.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\allegro.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\allegro.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\api.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\api.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\changes.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\changes.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\const.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\const.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\dat2c.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\dat2c.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\dat2s.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\dat2s.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\datafile.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\datafile.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\dat.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\dat.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\faq.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\faq.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\grabber.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\grabber.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\help.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\help.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\index.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\index.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\license.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\license.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\makedoc.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\makedoc.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\mistakes.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\mistakes.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\packfile.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\packfile.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\readme.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\readme.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b200f4cc04ce640f3e2d3ea3ce2052e7\thanks.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\f9630c5c8b56074cf42a7606c93784ae\thanks.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\cmake.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\cmake.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\linux.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\linux.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\macosx.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\macosx.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\mingw32.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\mingw32.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\msvc.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\msvc.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\unix.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\fbfcbf4dfcd972c545be26e1bf7c0997\unix.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\dddc01e2fdfa2ad719aada6246794c81\AUTHORS.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\dddc01e2fdfa2ad719aada6246794c81\THANKS.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\dddc01e2fdfa2ad719aada6246794c81\CHANGES.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\dddc01e2fdfa2ad719aada6246794c81\readme.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\8256edfd89db4a96640d7145cbbabf6e\allegro_init.3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\dff5134ee7c82922c4f2fd4ba7b63df0\allegro.api.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\33446e2b952c8775a677b0541dbe79a4\docs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\docs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\docs\CMakeFiles\docs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AF9358B-3998-378A-A2CD-8EA97D1C4730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

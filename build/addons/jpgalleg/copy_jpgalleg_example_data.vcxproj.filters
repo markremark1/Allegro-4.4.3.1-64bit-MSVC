@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\0f63969f5945030edba7f7c1edd7e659\cat.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\0f63969f5945030edba7f7c1edd7e659\datafile.dat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\0f63969f5945030edba7f7c1edd7e659\jpgalleg.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\925dcd8b8569b93b31d509139b59118a\copy_jpgalleg_example_data.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\CMakeFiles\copy_jpgalleg_example_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AF9358B-3998-378A-A2CD-8EA97D1C4730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

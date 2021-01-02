@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/examples/CMakeLists.txt
+  expackf.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\examples\expackf.c(78): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\examples\expackf.c(82): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\examples\expackf.c(169): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\examples\expackf.c(181): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+  expackf.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\RelWithDebInfo\expackf.exe

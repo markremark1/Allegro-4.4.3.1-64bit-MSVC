@@ -1,0 +1,35 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/docs/CMakeLists.txt
+  makedoc.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makedoc.c(547): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makedoc.c(837): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  makehtml.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1047): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1200): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1482): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1483): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1484): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1633): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1637): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1648): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1678): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1682): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makehtml.c(1694): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  makemisc.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makemisc.c(376): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makemisc.c(399): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makemisc.c(430): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  maketxt.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\maketxt.c(57): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\maketxt.c(70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  makertf.c
+  maketexi.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\maketexi.c(469): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\maketexi.c(517): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\maketexi.c(769): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  makeman.c
+  makechm.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\docs\src\makedoc\makechm.c(360): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  makedevh.c
+  makesci.c
+  Generating Code...
+  makedoc.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\docs\RelWithDebInfo\makedoc.exe

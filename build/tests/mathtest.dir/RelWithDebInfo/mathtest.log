@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tests/CMakeLists.txt
+  mathtest.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tests\mathtest.c(130): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  mathtest.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\RelWithDebInfo\mathtest.exe

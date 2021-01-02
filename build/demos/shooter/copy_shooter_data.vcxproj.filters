@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\d3b9af3e1f0ff17c36494a7e8160de1a\demo.dat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\9d3758cff74cb3784eb8d8a26d6382f2\copy_shooter_data.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\shooter\CMakeFiles\copy_shooter_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AF9358B-3998-378A-A2CD-8EA97D1C4730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

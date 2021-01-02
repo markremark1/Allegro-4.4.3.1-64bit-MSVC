@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/addons/jpgalleg/CMakeLists.txt
+  decode.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\decode.c(218): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  encode.c
+  error.c
+  init.c
+  io.c
+  jpgalleg.c
+  Generating Code...
+  jpgalleg.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\lib\RelWithDebInfo\jpgalleg.dll

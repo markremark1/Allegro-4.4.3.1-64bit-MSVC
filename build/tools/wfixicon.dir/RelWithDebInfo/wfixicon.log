@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tools/CMakeLists.txt
+  wfixicon.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\win\wfixicon.c(304): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+  wfixicon.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\RelWithDebInfo\wfixicon.exe

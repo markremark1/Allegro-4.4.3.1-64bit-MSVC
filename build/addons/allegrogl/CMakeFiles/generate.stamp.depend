@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Users/Marek/allegro-4.4.3.1/allegro/addons/allegrogl/CMakeLists.txt
+C:/Users/Marek/allegro-4.4.3.1/allegro/addons/allegrogl/include/allegrogl/alleggl_config.h.cmake

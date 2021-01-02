@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\allegro.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\example.dat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\examples.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\exconfig.ini.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\inkblot.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\mysha.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\planet.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\running.dat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\48b6e931266d8075afbc1d75ef0c388f\unifont.dat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\b091f77836fd22a6bda83c1709b9eee8\copy_example_data.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\CMakeFiles\copy_example_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AF9358B-3998-378A-A2CD-8EA97D1C4730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tests/CMakeLists.txt
+  dibgrab.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tests\win\dibgrab.c(151): warning C4028: formal parameter 3 different from declaration
+C:\Users\Marek\allegro-4.4.3.1\allegro\tests\win\dibgrab.c(151): warning C4028: formal parameter 4 different from declaration
+  dibgrab.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\RelWithDebInfo\dibgrab.exe

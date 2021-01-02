@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\alleggl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\glvtable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\scorer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\aglf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\fontconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\texture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\glext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\gui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\videovtb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\alleggl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\gl_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\gl_header_detect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\include\allegrogl\alleggl_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\glx_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\glx_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\glx_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\glx_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\gl_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\gl_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\gl_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\gl_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\wgl_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\wgl_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\wgl_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\GLext\wgl_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6FF3A1-9229-31E6-860C-0C990275E463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF9EEC2D-D100-3EA6-B878-F24E8BDE833E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

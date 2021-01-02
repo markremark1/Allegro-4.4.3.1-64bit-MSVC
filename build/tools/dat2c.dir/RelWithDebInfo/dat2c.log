@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tools/CMakeLists.txt
+  dat2c.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\dat2c.c(758): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  dat2c.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\RelWithDebInfo\dat2c.exe

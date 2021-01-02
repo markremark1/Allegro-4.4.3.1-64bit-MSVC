@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\src\jpgalleg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\include\jpgalleg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6FF3A1-9229-31E6-860C-0C990275E463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF9EEC2D-D100-3EA6-B878-F24E8BDE833E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

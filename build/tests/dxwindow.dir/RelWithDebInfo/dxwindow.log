@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tests/CMakeLists.txt
+  dxwindow.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tests\win\dxwindow.c(306): warning C4133: 'function': incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+  dxwindow.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\RelWithDebInfo\dxwindow.exe

@@ -1,0 +1,22 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/tools/CMakeLists.txt
+  datedit.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\datedit.c(425): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\datedit.c(426): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\datedit.c(428): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  datalpha.c
+  datfli.c
+  datfname.c
+  datfont.c
+  datgrab.c
+  datgrid.c
+  datimage.c
+  datitype.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\plugins\datitype.c(110): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned long'
+C:\Users\Marek\allegro-4.4.3.1\allegro\tools\plugins\datitype.c(203): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned long'
+  datmidi.c
+  datpal.c
+  datsamp.c
+  datworms.c
+  datjpeg.c
+  Generating Code...
+  aldat.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\lib\RelWithDebInfo\aldat.lib

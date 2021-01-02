@@ -1,0 +1,49 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/demos/skater/CMakeLists.txt
+  anim.c
+  backscrl.c
+  credits.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(73): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(105): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(107): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(161): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(171): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(192): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(220): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(227): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\source\credits.c(491): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  dblbuf.c
+  fps.c
+  framewk.c
+  game_sk.c
+  gamepad.c
+  global.c
+  intro.c
+  kbd_sk.c
+  level.c
+  lvlalloc.c
+  lvlfile.c
+  lvlstate.c
+  menu.c
+  menuabt.c
+  menuctl.c
+  menugfx.c
+  menumain.c
+  Generating Code...
+  Compiling...
+  menumisc.c
+  menuopts.c
+  menusnd.c
+  menusucc.c
+  music.c
+  oglflip.c
+  pageflip.c
+  physics.c
+  quadtree.c
+  scrshot.c
+  skater.c
+  token.c
+  transitn.c
+  tribuf.c
+  virtctl.c
+  Generating Code...
+  skater.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\skater\RelWithDebInfo\skater.exe

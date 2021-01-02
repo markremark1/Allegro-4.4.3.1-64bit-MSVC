@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+C:/Users/Marek/allegro-4.4.3.1/allegro/addons/loadpng/CMakeLists.txt

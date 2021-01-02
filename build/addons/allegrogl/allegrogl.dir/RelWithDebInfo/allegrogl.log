@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/addons/allegrogl/CMakeLists.txt
+  alleggl.c
+  glvtable.c
+  scorer.c
+  math.c
+  aglf.c
+  fontconv.c
+  texture.c
+  glext.c
+  gui.c
+  videovtb.c
+  win.c
+C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\src\win.c(1560): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  Generating Code...
+  allegrogl.vcxproj -> C:\Users\Marek\allegro-4.4.3.1\allegro\build\lib\RelWithDebInfo\alleggl.dll

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91A2BAAC-CE4C-3AE7-8903-4B569A0EBADF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marek\allegro-4.4.3.1\allegro\include;C:\Users\Marek\allegro-4.4.3.1\allegro\build\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\4597ca5c3e82e7621f7c002f1a02a9d4\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marek/allegro-4.4.3.1/allegro -BC:/Users/Marek/allegro-4.4.3.1/allegro/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Marek/allegro-4.4.3.1/allegro/build/ALLEGRO.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\allegrogl\include\allegrogl\alleggl_config.h.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\jpgalleg\include\mmx.h.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\loadpng\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\addons\logg\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\plugins.tmp;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\Common.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FileList.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDDraw.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDInput.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDSound.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDXGuid.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindVorbis.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\demos\skater\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\docs\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\examples\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alplatf.h.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\setup\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\tests\CMakeLists.txt;C:\Users\Marek\allegro-4.4.3.1\allegro\tools\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\allegrogl\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\loadpng\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\logg\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\addons\jpgalleg\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\docs\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\examples\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\shooter\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\demos\skater\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\tools\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\setup\CMakeFiles\generate.stamp;C:\Users\Marek\allegro-4.4.3.1\allegro\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

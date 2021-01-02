@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\animsel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\bullet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\dirty.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\expl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\star.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\aster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\demo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\title.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\demos\shooter\shooter.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF9EEC2D-D100-3EA6-B878-F24E8BDE833E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{593DB37A-8EFF-3566-A16F-FBD54D3FEDCD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>allegro</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marek\allegro-4.4.3.1\allegro\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">allegro.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">alleg44</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Marek\allegro-4.4.3.1\allegro\include;C:\Users\Marek\allegro-4.4.3.1\allegro\build\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;ALLEGRO_SRC;CMAKE_INTDIR="RelWithDebInfo";allegro_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;ALLEGRO_SRC;CMAKE_INTDIR=\"RelWithDebInfo\";allegro_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Marek\allegro-4.4.3.1\allegro\include;C:\Users\Marek\allegro-4.4.3.1\allegro\build\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marek\allegro-4.4.3.1\allegro\include;C:\Users\Marek\allegro-4.4.3.1\allegro\build\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;ole32.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x64\dinput8.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x64\ddraw.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x64\dxguid.lib;winmm.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x64\dsound.lib;winspool.lib;shell32.lib;oleaut32.lib;uuid.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Marek/allegro-4.4.3.1/allegro/build/lib/RelWithDebInfo/alleg44.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Marek/allegro-4.4.3.1/allegro/build/lib/RelWithDebInfo/alleg44.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marek\allegro-4.4.3.1\allegro\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Marek/allegro-4.4.3.1/allegro/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marek/allegro-4.4.3.1/allegro -BC:/Users/Marek/allegro-4.4.3.1/allegro/build --check-stamp-file C:/Users/Marek/allegro-4.4.3.1/allegro/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\Common.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FileList.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDDraw.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDInput.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDSound.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\cmake\FindDXGuid.cmake;C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alplatf.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marek\allegro-4.4.3.1\allegro\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\allegro.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\blit.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\bmp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\clip3d.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\clip3df.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\colblend.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\color.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\config.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\datafile.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dataregi.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\digmid.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dither.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\dispsw.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\drvlist.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\file.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fli.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\flood.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\font.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontbios.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontbmp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontdat.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fontgrx.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fonttxt.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\fsel.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gfx.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\glyph.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\graphics.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gsprite.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\gui.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\guiproc.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\inline.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\joystick.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\keyboard.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\lbm.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\libc.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\lzss.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\math.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\math3d.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\midi.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\mixer.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\modesel.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\mouse.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\pcx.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\poly3d.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\polygon.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\quantize.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\quat.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readbmp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readfont.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\readsmp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rle.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rotate.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\rsfb.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\scene3d.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\sound.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\spline.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\stream.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\text.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\tga.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\timer.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\unicode.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable15.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\vtable8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cblit8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\ccpu.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\ccsprite.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx15.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cgfx8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cmisc.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan15.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cscan8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr15.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cspr8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\cstretch.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan15.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan16.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan24.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\c\czscan8.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\misc\ccolconv.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\misc\colconv.c" />
+    <None Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\asmlock.s" />
+    <ResourceCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\dllver.rc" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\gdi.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddaccel.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddbmp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddbmpl.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddraw.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddfull.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddlock.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddmode.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddovl.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wddwin.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsinput.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsndmix.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdsound.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsndwo.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdxver.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wdispsw.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wfile.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wgdi.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wgfxdrv.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\winput.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoydrv.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoydx.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoyhelp.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wjoyw32.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wkeybd.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wmidi.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wmouse.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsnddrv.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wsystem.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wthread.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wtimer.c" />
+    <ClCompile Include="C:\Users\Marek\allegro-4.4.3.1\allegro\src\win\wwnd.c" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\include\allegro\platform\alplatf.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\3d.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\3dmaths.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\alcompat.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\alinline.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\base.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\color.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\compiled.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\config.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\datafile.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\debug.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\digi.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\draw.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\file.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fix.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fixed.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fli.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\fmaths.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\font.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\gfx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\graphics.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\gui.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\joystick.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\keyboard.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\lzss.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\matrix.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\midi.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\mouse.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\palette.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\quat.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\rle.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\sound.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\stream.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\system.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\text.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\timer.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\unicode.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\3dmaths.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\asm.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\color.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\draw.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\fix.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\fmaths.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\gfx.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\matrix.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\rle.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\inline\system.inl" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\aintern.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\aintvga.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\internal\alconfig.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintbeos.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintdos.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintlnx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintmac.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintosx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintpsp.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintqnx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintunix.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aintwin.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386gcc.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386vc.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\al386wat.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albcc32.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albecfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\albeos.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldjgpp.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldmc.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\aldos.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almac.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almaccfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almngw32.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\almsvc.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alosx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alosxcfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alpsp.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alpspcfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alqnx.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alqnxcfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alucfg.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alunix.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alwatcom.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\alwin.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\astdint.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\allegro\platform\macdef.h" />
+    <ClInclude Include="C:\Users\Marek\allegro-4.4.3.1\allegro\include\winalleg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Marek\allegro-4.4.3.1\allegro\build\ZERO_CHECK.vcxproj">
+      <Project>{91A2BAAC-CE4C-3AE7-8903-4B569A0EBADF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
